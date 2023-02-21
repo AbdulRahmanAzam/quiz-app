@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: aquire;
+    src: url(./Aquire-BW0ox.otf);
+    src: url(./AquireBold-8Ma60.otf);
+    src: url(./AquireLight-YzE0o.otf);
+}
+body{
+    background: linear-gradient(220deg, aqua ,#ce49c5 80%);
+    width: 100vw;
+    height: 100vh;/*rgb(161, 111, 161)*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+#mainDiv{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    font-family: aquire;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    height: 100%;
+    /* background-color: yellow;     */
+}
+#main-head{
+    background-color: aqua;
+    border-radius: 50px;
+    padding: 20px;
+    width: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#question{
+    background-color:rgb(236, 155, 236);
+    width: 340px;
+    height: 28px;
+    padding: 20px;
+    
+    border-radius: 50px;
+}
+#indexno{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: violet;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    width: 72px;    
+    padding: 12px;
+    font-size: x-large;
+}
+.answer{
+     padding: 40px; 
+
+}
+ul{
+    /* background-color: aqua; */
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 200px;
+}
+li{
+    list-style: none;
+    /* width: 180px; */
+    background-color: aquamarine;
+    padding: 14px;
+    border-radius: 30px;
+    margin: 5px;
+    height: auto;
+}
+#check{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 360px;
+    /* background-color: black; */
+}
+#next{
+    margin: 22px;
+    padding: 6px;
+    width: 80px;
+    background-color: rgb(209, 209, 21);
+    border-radius: 30px;
+    font-family: aquire;
+    font-size: larger;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color:;
+}
+#end-btn{
+        
+    margin-top: 50px;
+    background-color: rgb(235, 235, 38);
+    border-radius: 30px;
+    padding: 12px;
+}
